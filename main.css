@@ -1,0 +1,53 @@
+body {
+    font-family: 'Almarai', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url(img/1\ \(2\).jpg) no-repeat center center/cover;
+}
+
+main {
+    flex: 1;
+}
+
+.card {
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color:#F7941D;
+    color: white;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.custom-btn {
+    background-color: #A154A1; 
+    color: white;
+}
+
